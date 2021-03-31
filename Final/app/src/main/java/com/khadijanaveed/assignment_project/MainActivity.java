@@ -16,7 +16,5 @@ public class MainActivity extends AppCompatActivity {
         imageView.animate().alpha(0).setDuration(9000);
         MediaPlayer mp = MediaPlayer.create(this,R.raw.bismillah);
         mp.start();
-
-
     }
 }
