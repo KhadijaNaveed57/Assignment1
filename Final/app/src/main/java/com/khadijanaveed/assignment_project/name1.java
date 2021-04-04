@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class secondPage extends AppCompatActivity {
+public class name1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second_page);
+        setContentView(R.layout.activity_name1);
     }
 
-    public void open(View view) {
-        Intent intent = new Intent(secondPage.this,name1.class);
+    public void name2(View view) {
+        Intent intent = new Intent(name1.this,name2.class);
         startActivity(intent);
     }
 }

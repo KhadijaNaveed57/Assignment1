@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Assignment_Project">
-        <activity android:name=".secondPage"></activity>
+        <activity android:name=".name2"></activity>
+        <activity android:name=".name1" />
+        <activity android:name=".secondPage" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
